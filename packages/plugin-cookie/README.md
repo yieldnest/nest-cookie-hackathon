@@ -1,4 +1,4 @@
-# `@elizaos/plugin-coockie`
+# `@elizaos/plugin-cookie`
 
 This plugin provides functionality to interact with the Cookie.fun API for analyzing AI agents in the crypto market. It offers comprehensive market analysis, individual agent assessment, and real-time market data tracking.
 
@@ -121,12 +121,12 @@ The plugin includes comprehensive error handling:
 ### Usage in Your Project
 
 ```typescript
-import { coockiePlugin } from "@elizaos/plugin-coockie";
+import { cookiePlugin } from "@elizaos/plugin-cookie";
 
 // Add to your Eliza OS configuration
 const config = {
     plugins: [
-        coockiePlugin,
+        cookiePlugin,
         // ... other plugins
     ]
 };
